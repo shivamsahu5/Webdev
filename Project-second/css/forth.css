@@ -16,7 +16,7 @@ body{
 .header{
     width: 100%;
     height: 750px;
-    background-image: url("../images/forth/pic.1.jpg");
+    background-image: url("../images/pic.1.jpg");
     background-size:cover ;
     background-position: center top;
 }
@@ -158,7 +158,7 @@ a{
 
 .complatebottam{
     width: 100%;
-    background-color: rgb(248, 245, 242);
+    background-color: rgb(247, 242, 242);
 }
 
 .bottam{
@@ -166,6 +166,7 @@ a{
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
+    padding: 20px 0;
 }
 
 .bottam-three{
@@ -200,15 +201,23 @@ a{
 
 .footer{
     text-align: center;
-    margin-top: 30px;
+    margin: 100px 0;
+    
 }
 
-.footer img{
-    width: 100px;
+.footer i{
+    border-radius: 100%;
+    border: 3px double rgb(187, 186, 186);
+    color: gray;
+    padding: 8px;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .footer p{
     color: grey;
+    font-size: 15px;
 }
 
 /* media quies starts  */
