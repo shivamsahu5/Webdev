@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Scope One', serif;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header section start  */
+
+.header{
+    width: 100%;
+    height: 750px;
+    background-image: url("../forthweb/pic.1.jpg");
+    background-size:cover ;
+    background-position: center top;
+}
+
+.header h2{
+    float: left;
+    color: white;
+    font-size: 15px;
+}
+
+.header span{
+    color: #5358c1;
+}
+
+#idone{
+    float: right;
+    color: white;
+    font-size: 15px;
+}
+
+.urbon{
+    width: 60%;
+    text-align: center;
+    clear: both;
+    padding-top: 200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.urbon p{
+    font-size: 15px;
+    color: rgb(181, 176, 176);
+}
+
+.urbon button{
+    width: 120px;
+    height: 40px;
+    background-color: #5358c1;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Scope One', serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* second-section start  */
+
+.second-section{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.second-section img{
+    width: 30%;
+    float: left;
+    border-radius: 100%;
+    margin-right: 40px;
+    border: 1px solid rgb(187, 186, 186);
+    padding: 5px;
+}
+
+.second-section h3{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.second-section p{
+    font-size: 15px;
+    color: gray;
+}
+
+.second-section button{
+    width: 100px;
+    height: 33px;
+    background-color: #5358c1;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Scope One', serif;
+}
+
+/* centor-box starts  */
+
+.centor-box{
+    width: 100%;
+    background-color: #5358c1;
+    margin-top: 50px;
+}
+
+.centor-deep{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.centor-box .text-box{
+    width: 65%;
+    float: left;
+    color: white;
+    padding-top: 35px;
+}
+
+.centor-box p{
+    font-size: 15px;
+    color: gray;
+}
+
+.centor-box button{
+    width: 100px;
+    height: 33px;
+    background-color: white;
+    border: 0;
+    color: #5358c1;
+    font-weight: bold;
+    font-family: 'Scope One', serif;
+}
+
+.centor-box button a{
+    text-decoration: none;
+    color: #5358c1;
+}
+
+.centor-box img{
+    width: 30%;
+    float: right;
+    border-radius: 100%;
+    margin-top: 45px;
+    border: 1px solid rgb(126, 117, 117);
+    padding: 5px;
+}
+
+
+/* bottam div starts  */
+
+.complatebottam{
+    width: 100%;
+    background-color: rgb(248, 245, 242);
+}
+
+.bottam{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottam-three{
+    width: 30%;
+    float: left;
+    margin-left: 3% ;
+}
+
+.bottam img{
+    width: 75%;
+    border-radius: 100%;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.bottam button{
+    width: 100px;
+    height: 33px;
+    background-color: #5358c1;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Scope One', serif;
+}
+
+.bottam p{
+    color: grey;
+}
+
+
+/* footer start  */
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer img{
+    width: 100px;
+}
+
+.footer p{
+    color: grey;
+}
+
+/* media quies starts  */
+
+@media only screen and (max-width:600px){
+
+    .second-section img{
+          width: 70%;
+          clear: both;
+    }
+
+    .bottam-three{
+        width: 100%;
+        clear: both;
+        height: 400px;
+    }
+
+}
