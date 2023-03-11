@@ -1,0 +1,367 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ /* big-box starts */
+
+ .big-box{
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/slide01.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+ }
+
+ .header h3{
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+ }
+
+ .header h3 span{
+    font-size: 13;
+    font-weight: 100;
+    color: rgb(202, 186, 186);
+ }
+
+ .header h4{
+    float: right;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 20px;
+ }
+
+ .hielo-text{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    
+ }
+
+ .hielo-text p{
+    color: gray;
+    font-size: 13px;
+    letter-spacing: 3px;
+ }
+
+ .hielo-text span{
+    color: white;
+ }
+
+ .hielo-text hr{
+    width: 40%;
+ }
+
+ .hielo-text h1{
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: -5px;
+ }
+
+ /* big-box end */
+
+ /* second-two section starts */
+
+ .same-bg{
+    width: 100%;
+    background-color: rgb(234, 230, 224);
+    
+ }
+
+ .second-two{
+    width: 100%;
+ }
+
+ .two-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: center;
+ }
+
+ .two-section .left{
+      width: 47%;
+      float: left;
+      background-color: white;
+ }
+
+ .two-section .right{
+    width: 47%;
+    float: right;
+    background-color: white;
+}
+
+.two-section img{
+    width: 100%;
+}
+
+.two-section .peregrap-teg{
+    font-size: 9px;
+    color: rgb(168, 166, 166);
+    letter-spacing: 3px;
+}
+
+
+.two-section hr{
+    width: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.two-section h3{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.two-section .p-second{
+    font-size: 10px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-weight: 300;
+    color: rgb(164, 159, 159);
+}
+
+.two-section button{
+    width: 120px;
+    height: 40px;
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(191, 185, 185);
+    background-color: white;
+
+}
+
+ /* second-two section end */
+
+
+/* centor-bg-text starts  */
+
+
+.centor-bg-text{
+
+   width: 100%;
+   height: 150px;
+   background-image: url("../images/bg.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   padding-top: 50px;
+   color: white;
+   
+}
+
+.centor-bg-text p{
+   font-size: 10px;
+   font-weight: 200;
+   letter-spacing: 3px;
+}
+
+.centor-bg-text hr{
+   width: 40%;
+   color: rgb(220, 156, 156);
+}
+
+.centor-bg-text h1{
+   font-size: 25px;
+   margin-top: 5px;
+   font-weight: 300;
+}
+
+/* centor-bg-text end  */
+
+
+/* bottam-section for img starts  */
+
+
+.bottam-for-img{
+     width: 70%;
+     margin: 0 auto;
+     text-align: center;
+     padding-top: 20px;
+     
+}
+
+.bottam-for-img img{
+   float: left;
+   width: 45%;
+   margin-left: 3%;
+   margin-top: 3%;
+   background-color: white;
+   padding: 5px;
+   
+}
+
+.margin-bottam{
+   margin-bottom: 80px;
+}
+
+
+.bottam-for-img h3{
+   font-size: 10px;
+   font-weight: 200;
+   letter-spacing: 3px;
+}
+
+.bottam-for-img hr{
+   width: 50%;
+   color: rgb(255, 251, 251);
+}
+
+.bottam-for-img h1{
+   font-size: 25px;
+   margin-top: 5px;
+   font-weight: 300;
+}
+
+/* bottam-section for img end  */
+
+
+/* footer starts  */
+
+
+.footer{
+   width: 100%;
+   height: 150px;
+   background-color: black;
+   text-align: center;
+   
+}
+
+.footer i{
+   color: gray;
+   font-size: 20px;
+   letter-spacing: 5px;
+   padding-top: 25px;
+}
+
+.footer p{
+   color: gray;
+   padding-top: 25px;
+   font-size: 10px;
+   
+}
+
+
+
+/* footer end  */
+
+/* media quary starts  */
+
+@media only screen and (max-width:800px){
+
+   .hielo-text p{
+      color: rgb(228, 215, 215);
+      font-size: 6px;
+      letter-spacing: 2px;
+   }
+
+   .hielo-text hr{
+      width: 70%;
+   }
+
+   .hielo-text h1{
+      font-size: 40px;
+      font-weight: 300;
+      margin-top: -5px;
+   }
+
+   /* two-section start  */
+
+   .two-section .left{
+      width: 100%;
+      float: left;
+      background-color: white;
+      clear: both;
+   }
+
+   .two-section .right{
+      width: 100%;
+      float: left;
+      background-color: white;
+      clear: both;
+      margin-top: 10px;
+   }
+
+  /* centor-bg-text starts  */
+
+   .centor-bg-text p{
+   font-size: 8px;
+   font-weight: 200;
+   letter-spacing: 2px;
+   }
+
+   .centor-bg-text hr{
+      width: 60%;
+      color: rgb(220, 156, 156);
+   }
+
+   .centor-bg-text h1{
+      font-size: 19px;
+      margin-top: 5px;
+      font-weight: 300;
+   }
+
+   /* bottam-for-img starts  */
+
+   .bottam-for-img{
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 20px;
+      
+   }
+
+   .bottam-for-img img{
+      float: left;
+      width: 90%;
+      margin-top: 3%;
+      background-color: white;
+      padding: 5px;
+      clear: both;
+   }
+
+   .margin-bottam{
+      margin-bottom: 0px;
+   }
+
+   .bottam-for-img h3{
+      font-size: 8px;
+      font-weight: 200;
+      letter-spacing: 2px;
+   }
+
+   .bottam-for-img hr{
+      width: 70%;
+      color: rgb(255, 251, 251);
+   }
+
+   .bottam-for-img h1{
+      font-size: 20px;
+      margin-top: 5px;
+      font-weight: 300;
+   }
+
+
+   .footer img{
+      width: 40%;
+      background-color: gray;
+      margin-top: 20px;
+   }
+}
